@@ -196,7 +196,7 @@ find the error task
       }
       console.log(message);
 
-                               13)Change the code to print even numbers
+                               12)Change the code to print even numbers
                                //You are allowed to modify only one character 
                                   for (let num = 2; num <= 20; num += 1) {
                                     console.log(num)
@@ -205,7 +205,7 @@ find the error task
                                 ANS - change the increment to num=num+2.
                                 for (let num = 2; num <= 20; num += 2)
    
-    14)Change the code to print all the gifts
+    13)Change the code to print all the gifts
     let gifts = ["teddy bear", "drone", "doll"];
       for (let i = 0; i < 3; i++) {
         console.log('Wrapped ${'gifts[i]'} and added a bow!');
@@ -228,13 +228,49 @@ find the error task
                   }
                   console.log(msg);
                                
-                  ANS - "hi" is the message printed because if(), is followed by else if() or else () and "0" is the string                  
+                  ANS - "hi" is the message printed because if(), is followed by else if() or else () and "0" is the string    
+                  
+         15) Fix the code to diffuse the bomb
+         let countdown = 100;
+        while (countdown > 0) {
+          countdown--;
+          if(countdown == 0)
+          {
+           console.log("bomb triggered");
+          }
+        }
+         ANS - let countdown = 100;
+        while (countdown > 0) {
+          countdown--;
+          if(countdown == 50)
+          {
+           console.log("BOMB DIFFUSED");
+          }
+        }
                    
-                   
-                   
-                   
-                   
-                   
+                               PART-3 16)Fix the code to get the largest of three.
+                               aa = (f,s,t) => {
+                                         let f,s,t;
+                                         console.log(f,s,t);
+                                         if(f>s &&f>t){
+                                         console.log(f)}
+                                         else if(s>f && s>t){
+                                         console.log(s)}
+                                         else{
+                                         console.log(t)}
+                                        }
+                                        aa(1,2,3);
+                   ANS - Comment the second line because it is already declared.
+                                                   aa = (f,s,t) => {
+                                 console.log(f,s,t);
+                                 if(f>s &&f>t){
+                                 console.log(f)}
+                                 else if(s>f && s>t){
+                                 console.log(s)}
+                                 else{
+                                 console.log(t)}
+                                }
+                                aa(1,2,3);
                    
                    
                    
